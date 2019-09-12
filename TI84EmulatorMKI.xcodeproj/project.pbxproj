@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45170FBC232AB98E00D7CCBF /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45170FBB232AB98E00D7CCBF /* SettingsController.swift */; };
+		45170FBE232ABA0000D7CCBF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45170FBD232ABA0000D7CCBF /* HelpViewController.swift */; };
+		45170FC0232ABA9800D7CCBF /* GraphViewControllerPtOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45170FBF232ABA9800D7CCBF /* GraphViewControllerPtOne.swift */; };
 		4524AB8E2328156F00E82567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524AB8D2328156F00E82567 /* AppDelegate.swift */; };
 		4524AB902328156F00E82567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524AB8F2328156F00E82567 /* ViewController.swift */; };
 		4524AB932328156F00E82567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4524AB912328156F00E82567 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45170FBB232AB98E00D7CCBF /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		45170FBD232ABA0000D7CCBF /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		45170FBF232ABA9800D7CCBF /* GraphViewControllerPtOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewControllerPtOne.swift; sourceTree = "<group>"; };
 		4524AB8A2328156F00E82567 /* TI84EmulatorMKI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TI84EmulatorMKI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4524AB8D2328156F00E82567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4524AB8F2328156F00E82567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 			children = (
 				4524AB8D2328156F00E82567 /* AppDelegate.swift */,
 				4524AB8F2328156F00E82567 /* ViewController.swift */,
+				45170FBB232AB98E00D7CCBF /* SettingsController.swift */,
+				45170FBD232ABA0000D7CCBF /* HelpViewController.swift */,
+				45170FBF232ABA9800D7CCBF /* GraphViewControllerPtOne.swift */,
 				4524AB912328156F00E82567 /* Main.storyboard */,
 				4524AB942328157100E82567 /* Assets.xcassets */,
 				4524AB962328157100E82567 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45170FBC232AB98E00D7CCBF /* SettingsController.swift in Sources */,
 				4524AB902328156F00E82567 /* ViewController.swift in Sources */,
 				4524AB8E2328156F00E82567 /* AppDelegate.swift in Sources */,
+				45170FBE232ABA0000D7CCBF /* HelpViewController.swift in Sources */,
+				45170FC0232ABA9800D7CCBF /* GraphViewControllerPtOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
