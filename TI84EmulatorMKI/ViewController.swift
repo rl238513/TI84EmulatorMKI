@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var numberScreen: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    
+    
+    @IBAction func helpButton(_ sender: Any) {
+    }
+    @IBAction func graphButton(_ sender: Any) {
+    }
+    @IBAction func settingsButton(_ sender: Any) {
+    }
+    
 
 }
 
