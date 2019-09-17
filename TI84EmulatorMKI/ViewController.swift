@@ -75,8 +75,10 @@ class ViewController: UIViewController {
     @IBAction func onOffButton(_ sender: Any) {
         if onOffSwitchBool == true {
             onOffSwitchBool = false
+            numberScreen.backgroundColor = .black
         }else{
             onOffSwitchBool = true
+            numberScreen.backgroundColor = .white
         }
     }
     @IBAction func additionButton(_ sender: Any) {
