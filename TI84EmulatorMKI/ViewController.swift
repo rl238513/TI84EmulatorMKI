@@ -12,63 +12,79 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var numberScreen: UILabel!
     
-    var equation: String = ""
-    var array: [Any] = []
+    var equationLable: String = ""
+    var equationLiteral: [Any] = []
     var onOffSwitchBool = true
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
+    func equationSolver(equationLiteral: [Any]) -> String {
+        <#function body#>
+    }
     
     @IBAction func zeroButton(_ sender: Any) {
-        equation += "0"
-        numberScreen.text = equation
+        equationLable += "0"
+        equationLiteral.append(0)
+        numberScreen.text = equationLable
     }
     @IBAction func oneButton(_ sender: Any) {
-         equation += "1"
-        numberScreen.text = equation
+        equationLable += "1"
+        equationLiteral.append(1)
+        numberScreen.text = equationLable
     }
     @IBAction func twoButton(_ sender: Any) {
-         equation += "2"
-        numberScreen.text = equation
+        equationLable += "2"
+        equationLiteral.append(2)
+        numberScreen.text = equationLable
     }
     @IBAction func threeButton(_ sender: Any) {
-         equation += "3"
-        numberScreen.text = equation
+        equationLable += "3"
+        equationLiteral.append(3)
+        numberScreen.text = equationLable
     }
     @IBAction func fourButton(_ sender: Any) {
-         equation += "4"
-        numberScreen.text = equation
+        equationLable += "4"
+        equationLiteral.append(4)
+        numberScreen.text = equationLable
     }
     @IBAction func fiveButton(_ sender: Any) {
-         equation += "5"
-        numberScreen.text = equation
+        equationLable += "5"
+        equationLiteral.append(5)
+        numberScreen.text = equationLable
     }
     @IBAction func sixButton(_ sender: Any) {
-         equation += "6"
-        numberScreen.text = equation
+        equationLable += "6"
+        equationLiteral.append(6)
+        numberScreen.text = equationLable
     }
     @IBAction func sevenButton(_ sender: Any) {
-         equation += "7"
-        numberScreen.text = equation
+        equationLable += "7"
+        equationLiteral.append(7)
+        numberScreen.text = equationLable
     }
     @IBAction func eightButton(_ sender: Any) {
-         equation += "8"
-        numberScreen.text = equation
+        equationLable += "8"
+        equationLiteral.append(8)
+        numberScreen.text = equationLable
     }
     @IBAction func nineButton(_ sender: Any) {
-         equation += "9"
-        numberScreen.text = equation
+        equationLable += "9"
+        equationLiteral.append(9)
+        numberScreen.text = equationLable
     }
     @IBAction func decimalButton(_ sender: Any) {
-         equation += "."
-        numberScreen.text = equation
+        equationLable += "."
+        equationLiteral.append(10)
+        numberScreen.text = equationLable
     }
     @IBAction func negativeButton(_ sender: Any) {
-         equation += "-"
-        numberScreen.text = equation
+        equationLable += "-"
+        equationLiteral.append(11)
+        numberScreen.text = equationLable
     }
     @IBAction func enterButton(_ sender: Any) {
     }
@@ -84,28 +100,34 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func additionButton(_ sender: Any) {
-         equation += "+"
-        numberScreen.text = equation
+        equationLable += "+"
+        equationLiteral.append(12)
+        numberScreen.text = equationLable
     }
     @IBAction func subtractionButton(_ sender: Any) {
-         equation += "-"
-        numberScreen.text = equation
+        equationLable += "-"
+        equationLiteral.append(13)
+        numberScreen.text = equationLable
     }
     @IBAction func multiplicationButton(_ sender: Any) {
-         equation += "x"
-        numberScreen.text = equation
+        equationLable += "x"
+        equationLiteral.append(14)
+        numberScreen.text = equationLable
     }
     @IBAction func divisionButton(_ sender: Any) {
-         equation += "0"
-        numberScreen.text = equation
+        equationLable += "0"
+        equationLiteral.append(15)
+        numberScreen.text = equationLable
     }
     @IBAction func openParenthesisButton(_ sender: Any) {
-         equation += "("
-        numberScreen.text = equation
+        equationLable += "("
+        equationLiteral.append(16)
+        numberScreen.text = equationLable
     }
     @IBAction func closedParenthesisButton(_ sender: Any) {
-         equation += ")"
-        numberScreen.text = equation
+        equationLable += ")"
+        equationLiteral.append(17)
+        numberScreen.text = equationLable
     }
     
     
