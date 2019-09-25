@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberScreen: UILabel!
     
     var equationLable: String = ""
-    var equationLiteral: [Any] = []
+    var equationLiteral: [Int] = []
     var onOffSwitchBool = true
+    
     
     
     override func viewDidLoad() {
@@ -22,8 +23,43 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    func equationSolver(equationLiteral: [Any]) -> String {
-        <#function body#>
+    func equationSolver(equationLiteral: [Int]) -> String {
+        var equationRewritten: [Int] = []
+        var integer = Double()
+        
+        for n in equationLiteral {
+                equationRewritten.append(n)
+        }
+        for n in equationRewritten {
+            if n < 10 {
+                
+            }
+            else if n == 10 { //decimal
+                integer * -1
+            }
+            else if n == 11 { //negative#s
+                
+            }
+            else if n == 12 { //addition
+                
+            }
+            else if n == 13 { //subtraction
+                
+            }
+            else if n == 14 { //multiplacation
+                
+            }
+            else if n == 15 { //division
+                
+            }
+            else if n == 16 { //open parenthesis
+                
+            }
+            else if n == 17 { //close parenthesis
+                
+            }
+        }
+        return "."
     }
     
     @IBAction func zeroButton(_ sender: Any) {
@@ -115,7 +151,7 @@ class ViewController: UIViewController {
         numberScreen.text = equationLable
     }
     @IBAction func divisionButton(_ sender: Any) {
-        equationLable += "0"
+        equationLable += "÷"
         equationLiteral.append(15)
         numberScreen.text = equationLable
     }
